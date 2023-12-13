@@ -1,5 +1,4 @@
-from flask import Flask,render_template , jsonify
-#APP
+from flask import Flask,render_template , jsonify , request
 app = Flask(__name__)
 
 JOBS = [
